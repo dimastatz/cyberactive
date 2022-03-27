@@ -1,9 +1,51 @@
 <mxfile host="65bd71144e">
-    <diagram id="9p4r_unaipcgZdkD1xP9" name="Page-1">
-        <mxGraphModel dx="423" dy="624" grid="1" gridSize="4" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <diagram id="9p4r_unaipcgZdkD1xP9" name="overview">
+        <mxGraphModel dx="673" dy="654" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="&lt;br&gt;&lt;br&gt;Data &lt;br&gt;Collection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="64" y="64" width="76" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.data_pipeline;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="65" width="24" height="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;br&gt;&lt;br&gt;Data &lt;br&gt;Analysis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="176" y="64" width="76" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;br&gt;&lt;br&gt;Threat&lt;br&gt;Detection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="288" y="64" width="76" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;br&gt;&lt;br&gt;Attack Response" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="64" width="76" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#990000;strokeWidth=3;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="292" y="350" as="sourcePoint"/>
+                        <mxPoint x="342" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://cdn.onlinewebfonts.com/svg/img_305410.png;" vertex="1" parent="1">
+                    <mxGeometry x="202" y="67.83999999999997" width="24" height="18.32" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.iconscout.com/icon/premium/png-256-thumb/cyber-threats-986838.png;" vertex="1" parent="1">
+                    <mxGeometry x="314" y="66" width="24" height="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#990000;strokeWidth=3;" edge="1" parent="1" source="4" target="5">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="144" y="100" as="sourcePoint"/>
+                        <mxPoint x="180" y="100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#990000;strokeWidth=3;" edge="1" parent="1" source="5" target="6">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="256" y="100" as="sourcePoint"/>
+                        <mxPoint x="292" y="100" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn3.iconfinder.com/data/icons/business-finance-lineal/32/plan-strategy-playbook-route-512.png;" vertex="1" parent="1">
+                    <mxGeometry x="426" y="63.84" width="24" height="24" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
