@@ -10,6 +10,6 @@
 </table>
 
 ## System Design Document
-[Got to System Design Document](./docs/system-design.md)
+[Go to System Design Document](./docs/system-design.md)
 
 
