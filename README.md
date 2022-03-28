@@ -9,11 +9,10 @@
     <td><img src="./docs/imgs/img-1-overview.png" /></td>
   </tr>
   <tr>
-    <td><a href="./docs/system-design.md">Click for more info</a></td>
+    <td align="center"><a href="./docs/system-design.md">Navigate to the System Design document</a></td>
   </tr>
 </table>
 
-[Click for more info](./docs/system-design.md)
 
 
 ## How we build
