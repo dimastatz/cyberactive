@@ -15,11 +15,11 @@
 
 
 ## Engineering Principles  
-We are [remote first engineering](https://about.gitlab.com/company/culture/all-remote/guide/) organization. Our team is distributed all over the world, and we are creating a modern [cloud native](https://en.wikipedia.org/wiki/Cloud_native_computing) platform on top of open source. We adopted the following engineering principles to be successful.
-  1. <b>Lean Engineering:</b> Eliminate waste. Use only tools that are required to make the work done.
-  2. <b>Cloud Native Mindset:</b> Build loosely coupled, resilient, manageable, and observable software. Change the platform frequently and predictably with minimal toil. Automate everything. 
-  3. <b>Validated Learning:</b> Future is unknown. Learn through experimentation. Deliver as fast as possible and find what works best. 
-  4. <b>Asynchronous Communication:</b> Work from anywhere you want and communicate asynchronously. We have a <b>written down</b> and transparent culture of knowledge sharing.
+We are [remote first engineering](https://about.gitlab.com/company/culture/all-remote/guide/) organization. Our team is distributed all over the world, and we are creating a modern [cloud native](https://en.wikipedia.org/wiki/Cloud_native_computing) platform on top of open source. We adopted the following engineering principles to be successful. 
+  1. <b>Cloud Native Mindset:</b> Build loosely coupled, resilient, manageable, and observable software. Change the platform frequently and predictably with minimal toil. Automate everything. 
+  2. <b>Validated Learning:</b> Future is unknown, learn through experimentation. Deliver as fast as possible and find what works best. 
+  3. <b>Asynchronous Communication:</b> Work from anywhere you want and communicate asynchronously. We have a <b>written down</b> and transparent culture of knowledge sharing.
+  4. <b>Lean Engineering:</b> Eliminate waste. If some tool or activity could be bypassed or the result could be achieved without it, it is waste. Examples: using Jira over Github for bug tracking, using Confluent over Github for documentation, using Java and Go for backend development, etc.
   5. <b>Giving Back:</b> Share knowledge and give back to the tech community by blogging, contributing to open source products.
 
 
