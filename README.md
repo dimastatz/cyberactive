@@ -19,7 +19,7 @@ We are [remote first engineering](https://about.gitlab.com/company/culture/all-r
   1. <b>Cloud Native Mindset:</b> Build loosely coupled, resilient, manageable, and observable software. Change the platform frequently and predictably with minimal toil. Automate everything. 
   2. <b>Validated Learning:</b> Future is unknown, learn through experimentation. Deliver as fast as possible and find what works best. 
   3. <b>Asynchronous Communication:</b> Work from anywhere you want and communicate asynchronously. We have a <b>written down</b> and transparent culture of knowledge sharing.
-  4. <b>Lean Engineering:</b> Eliminate waste. If some tool or activity could be bypassed or the result could be achieved without it, it is waste. Examples: using Jira over Github for bug tracking, using Confluent over Github for documentation, using Java and Go for backend development, etc.
+  4. <b>Lean Engineering:</b> Eliminate waste. If some tool or activity could be bypassed or the result could be achieved without it, it is waste. Examples: using Jira over Github for bug tracking, using Confluent over Github for documentation, using both Java and Go for backend development, etc.
   5. <b>Giving Back:</b> Share knowledge and give back to the tech community by blogging, contributing to open source products.
 
 
