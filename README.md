@@ -1,8 +1,5 @@
 # CyberActive
 
-## Team  
-[TBD]
-
 
 ## Platform 
 [CyberActive](https://www.cyberactive.com) is a unified cybersecurity platform that combines the power of Artificial Intelligence, Deep Learning, and End-to-End Automation to identify and eliminate security vulnerabilities, prevent security collapses and data loss. CyberActive works by collecting and correlating data across various network points such as servers, email, cloud workloads, and endpoints. The system analyzes the correlated data, lending it visibility and context, and revealing advanced threats. Thereafter, the threats are prioritized, analyzed, and sorted to prevent security vulnerabilities.
@@ -19,13 +16,13 @@
 
 ## Engineering Principles  
 We are [remote first engineering](https://about.gitlab.com/company/culture/all-remote/guide/) organization. Our team is distributed all over the world, and we are creating a modern [cloud native](https://en.wikipedia.org/wiki/Cloud_native_computing) platform on top of open source. We adopted the following engineering principles to be successful.
-  1. <b>Lean Engineering:</b> sdasdasd
-  2. <b>Cloud Native Mindset:</b> Build loosely coupled, resilient, manageable, and observable software. Automate everything. Change our platform frequently and predictably with minimal toil.
+  1. <b>Lean Engineering:</b> Eliminate waste. Use only tools that are required to make the work done.
+  2. <b>Cloud Native Mindset:</b> Build loosely coupled, resilient, manageable, and observable software. Change the platform frequently and predictably with minimal toil. Automate everything. 
   3. <b>Validated Learning:</b> Future is unknown. Learn through experimentation. Deliver as fast as possible and find what works best. 
   4. <b>Asynchronous Communication:</b> Work from anywhere you want and communicate asynchronously. We have a <b>written down</b> and transparent culture of knowledge sharing.
-  5. <b>Giving Back:</b>
+  5. <b>Giving Back:</b> Share knowledge and give back to the tech community by blogging, contributing to open source products.
 
 
-## How to use CyberActive  
+## How To Use CyberActive  
 [TBD]()
 
