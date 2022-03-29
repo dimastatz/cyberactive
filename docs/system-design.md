@@ -9,19 +9,19 @@ This document contains the CyberActive MVP System Design. The main goal of the M
 [TBD]()
 
 ### Non-Functional
-    - Maintainability
-        1. MVP will be maintained by a small team. CyberActive MVP should be created by using the lean engineering approach where we rely on managed AWS services and the lean tech stack.  
-        2. To reduce the scope, the MVP should implement batch pipelines only. Batch pipelines will simulate streaming capabilities by performing micro-batches (up to 5 mins latency)
-        3. Provide CI/CD design
-        4. Provide E2E Testing design 
-        5. Provide Logging and Metrics design 
-    - Capacity
-        1. The target MVP data capacity is small - up to hundreds of MB of input data per hour.
-        2. The System should be scalable to any volume of the input data
-        3. The provided solution should be Highly Available (MultiAZ) and Reliable. Cover the automatic recovery from failures. 
-    - Cost
-        1. Design a solution that uses AWS Free tier as much as possible. Estimate the total monthly AWS cost of the CyberActive MVP
-        2. Provide a solution for the security and governance layer. Describe how the data is protected on transit and rest.Design access control, encryption, network protection, usage monitoring, and auditing. 
+- Maintainability
+    1. MVP will be maintained by a small team. CyberActive MVP should be created by using the lean engineering approach where we rely on managed AWS services and the lean tech stack.  
+    2. To reduce the scope, the MVP should implement batch pipelines only. Batch pipelines will simulate streaming capabilities by performing micro-batches (up to 5 mins latency)
+    3. Provide CI/CD design
+    4. Provide E2E Testing design 
+    5. Provide Logging and Metrics design 
+- Capacity
+    1. The target MVP data capacity is small - up to hundreds of MB of input data per hour.
+    2. The System should be scalable to any volume of the input data
+    3. The provided solution should be Highly Available (MultiAZ) and Reliable. Cover the automatic recovery from failures. 
+- Cost
+    1. Design a solution that uses AWS Free tier as much as possible. Estimate the total monthly AWS cost of the CyberActive MVP
+    2. Provide a solution for the security and governance layer. Describe how the data is protected on transit and rest.Design access control, encryption, network protection, usage monitoring, and auditing. 
 
 ## System APIs
 
