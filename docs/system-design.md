@@ -30,10 +30,10 @@ The proposed architecture is a stack of six logical layers: data collection, dat
 The Layered Architecture approach promotes separation of concerns and flexibility to add or remove data sources, add new data consumers, change processing methods.
 <table width="256px">
   <tr>
-    <td><img src="./docs/imgs/img-1-overview.png" /></td>
+    <td><img src="./imgs/img-2-architecture.png" /></td>
   </tr>
   <tr>
-    <td align="center"><a href="./docs/system-design.md">Navigate to the System Design Document</a></td>
+    <td>Architecture Diagram</td>
   </tr>
 </table>
 
@@ -50,10 +50,10 @@ The Data Ingestion Layer consists of three components - API Gateway, AWS Lambda 
     - The S3 upload is reliable. The failed upload session will be tracked and retried. All fatal failures will be tracked in AWS CloudWatch
 <table width="256px">
   <tr>
-    <td><img src="./docs/imgs/img-1-overview.png" /></td>
+    <td><img src="./imgs/img-3-data-ingest.png" /></td>
   </tr>
   <tr>
-    <td align="center"><a href="./docs/system-design.md">Navigate to the System Design Document</a></td>
+    <td>Data Ingest</td>
   </tr>
 </table>
 The only implementation that is needed in this tier is in AWS Lambda. AWS Lambda is responsible for validating api keys and generating pre-signed S3 urls by using boto3. AWS API Gateway will take care of providing public REST API, performing the IP whitelisting, IP rate limits and handling HTTPs certificates. And finally, when the authenticated flow is done and pre-signed s3 url is ready, the log shipper will be able to upload the files to the private S3 bucket for 'raw data'. The data in the bucket will be partitioned by customer_id and timestamp. For eample it can be stored in s3://cyberactive_raw_data/test_client/20210229_161221/. 
