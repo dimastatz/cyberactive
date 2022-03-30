@@ -66,7 +66,7 @@ Once the log  file lands in the raw_data bucket, the processing AWS Lambda is la
 If the data is legal, the AWS Lambda function creates parquet files in S3 preprocessed bucket. Another AWS Lambda (aggregator) launched periodically, it aggregates data and loads it to the AWS Redshift
 <table width="256px">
   <tr>
-    <td><img src="./docs/imgs/img-4-data-prod.png" /></td>
+    <td><img src="./imgs/img-4-data-prod.png" /></td>
   </tr>
   <tr>
     <td align="center">Data Processing</td>
