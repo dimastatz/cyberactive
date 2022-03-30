@@ -49,7 +49,7 @@
             </root>
         </mxGraphModel>
     </diagram>
-    <diagram id="6zHZHuOV4nDB6BS0_q8m" name="Page-2">
+    <diagram id="6zHZHuOV4nDB6BS0_q8m" name="architecture">
         <mxGraphModel dx="972" dy="578" grid="1" gridSize="4" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="_xnR4cooU459pM_X_l4R-0"/>
@@ -375,7 +375,7 @@
             </root>
         </mxGraphModel>
     </diagram>
-    <diagram id="bCsFDvU9vH3ysXJtSOcf" name="Page-3">
+    <diagram id="bCsFDvU9vH3ysXJtSOcf" name="data-ingest">
         <mxGraphModel dx="972" dy="578" grid="1" gridSize="4" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="UL-wV_sjQT2o5CDoNa7m-0"/>

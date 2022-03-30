@@ -33,7 +33,7 @@ The Layered Architecture approach promotes separation of concerns and flexibilit
     <td><img src="./imgs/img-2-architecture.png" /></td>
   </tr>
   <tr>
-    <td>Architecture Diagram</td>
+    <td align="center">Architecture Diagram</td>
   </tr>
 </table>
 
@@ -53,7 +53,7 @@ The Data Ingestion Layer consists of three components - API Gateway, AWS Lambda 
     <td><img src="./imgs/img-3-data-ingest.png" /></td>
   </tr>
   <tr>
-    <td>Data Ingest</td>
+    <td align="center">Data Ingest</td>
   </tr>
 </table>
 The only implementation that is needed in this tier is in AWS Lambda. AWS Lambda is responsible for validating api keys and generating pre-signed S3 urls by using boto3. AWS API Gateway will take care of providing public REST API, performing the IP whitelisting, IP rate limits and handling HTTPs certificates. And finally, when the authenticated flow is done and pre-signed s3 url is ready, the log shipper will be able to upload the files to the private S3 bucket for 'raw data'. The data in the bucket will be partitioned by customer_id and timestamp. For eample it can be stored in s3://cyberactive_raw_data/test_client/20210229_161221/. 
