@@ -66,10 +66,10 @@ Once the log  file lands in the raw_data bucket, the processing AWS Lambda is la
 If the data is legal, the AWS Lambda function creates parquet files in S3 preprocessed bucket. Another AWS Lambda (aggregator) launched periodically, it aggregates data and loads it to the AWS Redshift
 <table width="256px">
   <tr>
-    <td><img src="./docs/imgs/img-1-overview.png" /></td>
+    <td><img src="./docs/imgs/img-4-data-prod.png" /></td>
   </tr>
   <tr>
-    <td align="center"><a href="./docs/system-design.md">Navigate to the System Design Document</a></td>
+    <td align="center">Data Processing</td>
   </tr>
 </table>
 The core component of the data processing tier is the database that stores the aggregated data. Our choice is the AWS Redshift. AWS Redshift has the following pros:
